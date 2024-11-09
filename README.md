@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # Code Base Vite + TypeScript
 
 This project is a starter template using **Vite** with **TypeScript** and **React**. It includes **Tailwind CSS** for styling, **React Router** for routing, **ESLint** with **Prettier** for code quality and formatting, and **Husky** for Git hooks.
@@ -26,6 +26,7 @@ Ensure you have **Node.js** and **npm** installed. If not, download them [here](
    git clone <repository-url>
    cd code-base-vite-ts
    ```
+````
 
 2. Install dependencies:
    ```bash
@@ -37,46 +38,58 @@ Ensure you have **Node.js** and **npm** installed. If not, download them [here](
 Here are some commands you can run in this project:
 
 - **Start Development Server**
-   ```bash
-   npm run dev
-   ```
-   This command starts the Vite development server. By default, you can access it at [http://localhost:5173](http://localhost:5173).
+
+  ```bash
+  npm run dev
+  ```
+
+  This command starts the Vite development server. By default, you can access it at [http://localhost:5173](http://localhost:5173).
 
 - **Build for Production**
-   ```bash
-   npm run build
-   ```
-   Compiles the project using TypeScript and bundles it for production.
+
+  ```bash
+  npm run build
+  ```
+
+  Compiles the project using TypeScript and bundles it for production.
 
 - **Preview Production Build**
-   ```bash
-   npm run preview
-   ```
-   Serves the production build locally.
+
+  ```bash
+  npm run preview
+  ```
+
+  Serves the production build locally.
 
 - **Lint Code**
-   ```bash
-   npm run lint
-   ```
-   Runs **ESLint** on all files to check for code issues.
+
+  ```bash
+  npm run lint
+  ```
+
+  Runs **ESLint** on all files to check for code issues.
 
 - **Type Check**
-   ```bash
-   npm run check:type
-   ```
-   Verifies TypeScript types.
+
+  ```bash
+  npm run check:type
+  ```
+
+  Verifies TypeScript types.
 
 - **Run All Checks**
-   ```bash
-   npm run check:all
-   ```
-   Runs Prettier, ESLint, and TypeScript checks to ensure code quality.
+
+  ```bash
+  npm run check:all
+  ```
+
+  Runs Prettier, ESLint, and TypeScript checks to ensure code quality.
 
 - **Set Up Husky**
-   ```bash
-   npm run prepare
-   ```
-   Sets up Husky for Git hooks to enforce standards.
+  ```bash
+  npm run prepare
+  ```
+  Sets up Husky for Git hooks to enforce standards.
 
 ## Project Structure
 
@@ -100,4 +113,7 @@ Here are some commands you can run in this project:
 ## Author
 
 This project is designed to serve as a starter template for modern front-end development with Vite and TypeScript.
+
+```
+
 ```
