@@ -1,4 +1,3 @@
-````markdown
 # Code Base Vite + TypeScript
 
 This project is a starter template using **Vite** with **TypeScript** and **React**. It includes **Tailwind CSS** for styling, **React Router** for routing, **ESLint** with **Prettier** for code quality and formatting, and **Husky** for Git hooks.
@@ -26,7 +25,6 @@ Ensure you have **Node.js** and **npm** installed. If not, download them [here](
    git clone <repository-url>
    cd code-base-vite-ts
    ```
-````
 
 2. Install dependencies:
    ```bash
@@ -113,7 +111,3 @@ Here are some commands you can run in this project:
 ## Author
 
 This project is designed to serve as a starter template for modern front-end development with Vite and TypeScript.
-
-```
-
-```
