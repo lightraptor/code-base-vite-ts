@@ -21,6 +21,7 @@ Ensure you have **Node.js** and **npm** installed. If not, download them [here](
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd code-base-vite-ts
