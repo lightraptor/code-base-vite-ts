@@ -1,55 +1,54 @@
 .button {
+  &:hover,
+  &:focus {
+    outline: none;
+  }
 
-    &:hover,
-    &:focus {
-        outline: none;
+  /* Base style */
+  @apply px-4 py-2 text-baseText bg-baseBackground rounded-md border-[1px] border-baseBorder hover:border-primary hover:text-primary;
+
+  /* Default button */
+  &.btn-default {
+    @apply text-baseText bg-baseBackground border-baseBorder;
+
+    &:hover {
+      @apply text-primary border-primary;
     }
+  }
 
-    /* Base style */
-    @apply px-4 py-2 text-baseText bg-baseBackground rounded-md border-[1px] border-baseBorder hover:border-primary hover:text-primary;
+  /* Primary button */
+  &.btn-primary {
+    @apply text-white bg-primary border-transparent;
 
-    /* Default button */
-    &.btn-default {
-        @apply text-baseText bg-baseBackground border-baseBorder;
-
-        &:hover {
-            @apply text-primary border-primary;
-        }
+    &:hover {
+      @apply bg-hoverPrimary;
     }
+  }
 
-    /* Primary button */
-    &.btn-primary {
-        @apply text-white bg-primary border-transparent;
+  /* Dashed button */
+  &.btn-dashed {
+    @apply text-baseText bg-baseBackground border-dashed border-baseBorder;
 
-        &:hover {
-            @apply bg-hoverPrimary;
-        }
+    &:hover {
+      @apply text-primary border-primary;
     }
+  }
 
-    /* Dashed button */
-    &.btn-dashed {
-        @apply text-baseText bg-baseBackground border-dashed border-baseBorder;
+  /* Link button */
+  &.btn-link {
+    @apply text-primary bg-transparent border-none;
 
-        &:hover {
-            @apply text-primary border-primary;
-        }
+    &:hover {
+      @apply text-hoverPrimary;
     }
+  }
 
-    /* Link button */
-    &.btn-link {
-        @apply text-primary bg-transparent border-none;
+  /* Text button */
+  &.btn-text {
+    @apply text-baseText bg-transparent border-none;
 
-        &:hover {
-            @apply text-hoverPrimary;
-        }
+    &:hover {
+      @apply bg-baseBackgroundTextButton;
     }
-
-    /* Text button */
-    &.btn-text {
-        @apply text-baseText bg-transparent border-none;
-
-        &:hover {
-            @apply bg-baseBackgroundTextButton;
-        }
-    }
+  }
 }
