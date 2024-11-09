@@ -1,0 +1,55 @@
+.button {
+
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+
+    /* Base style */
+    @apply px-4 py-2 text-baseText bg-baseBackground rounded-md border-[1px] border-baseBorder hover:border-primary hover:text-primary;
+
+    /* Default button */
+    &.btn-default {
+        @apply text-baseText bg-baseBackground border-baseBorder;
+
+        &:hover {
+            @apply text-primary border-primary;
+        }
+    }
+
+    /* Primary button */
+    &.btn-primary {
+        @apply text-white bg-primary border-transparent;
+
+        &:hover {
+            @apply bg-hoverPrimary;
+        }
+    }
+
+    /* Dashed button */
+    &.btn-dashed {
+        @apply text-baseText bg-baseBackground border-dashed border-baseBorder;
+
+        &:hover {
+            @apply text-primary border-primary;
+        }
+    }
+
+    /* Link button */
+    &.btn-link {
+        @apply text-primary bg-transparent border-none;
+
+        &:hover {
+            @apply text-hoverPrimary;
+        }
+    }
+
+    /* Text button */
+    &.btn-text {
+        @apply text-baseText bg-transparent border-none;
+
+        &:hover {
+            @apply bg-baseBackgroundTextButton;
+        }
+    }
+}
