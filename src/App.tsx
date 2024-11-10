@@ -5,9 +5,9 @@ import { MainRouter } from 'routes'
 function App() {
   return (
     <>
-      <div className='bg-baseBackground h-[100vh] w-[100vw]'>
+      <div className='h-[100vh] w-[100vw]'>
         <ThemeControl />
-        <p className='text-3xl text-primary text-center font-normal'>This is code base project</p>
+        <h1 className='text-center font-normal'>This is code base project</h1>
         <MainRouter />
       </div>
     </>

@@ -1,5 +1,5 @@
 import { MENU } from 'defines'
-import { AboutPage, HomePage } from 'page'
+import { AboutPage, HomePage, ThemePage } from 'page'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 export const MainRouter = () => {
@@ -11,6 +11,10 @@ export const MainRouter = () => {
     {
       path: MENU.About,
       element: <AboutPage />
+    },
+    {
+      path: MENU.Theme,
+      element: <ThemePage />
     }
   ])
   return <RouterProvider router={router} />
