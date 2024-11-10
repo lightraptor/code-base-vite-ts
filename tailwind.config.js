@@ -4,7 +4,8 @@ const COLORS = {
   baseBackground: 'var(--baseBackground)',
   baseText: 'var(--baseText)',
   baseBorder: 'var(--baseBorder)',
-  baseBackgroundTextButton: 'var(--baseBackgroundTextButton)'
+  baseBackgroundTextButton: 'var(--baseBackgroundTextButton)',
+  baseBackgroundTextButtonHoverDarkTheme: 'var(--baseBackgroundTextButtonHoverDarkTheme)'
 }
 
 /** @type {import('tailwindcss').Config} */
